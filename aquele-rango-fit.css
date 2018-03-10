@@ -1,0 +1,61 @@
+.scrollspySite {
+  position: relative;
+  overflow: auto;
+  height: 345px;
+  
+}
+
+.scrollspySite p {
+  text-indent: 2em;
+}
+
+a.logo {
+  font-size: 40px;
+}
+
+img.logo {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  padding: 0;
+}
+
+li.nav-item{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.zoom {
+  width: 200px;
+  height: 200px;
+}
+
+img.zoom {
+  max-width: 100%;
+  transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+
+}
+
+img.zoom:hover {
+  transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+}
+
+.zoom {
+  overflow: hidden;
+}
+
+span {
+  opacity: 1;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #000000;
+  background-color: #870808;
+  font-size: 15pt;
+  padding: 5px;
+}
+
